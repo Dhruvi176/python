@@ -1,0 +1,9 @@
+p=int(input("enter principal amount"))
+t=int(input("enter time period in years"))
+r=float(input("enter rate of intrest"))
+si=(p*t*r)/100
+print(si)
+hello=p+si
+time=t*12
+emi=hello/time
+print(emi)
