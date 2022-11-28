@@ -1,0 +1,5 @@
+while True:
+    pin=input("enter PIN")
+    if pin=="1234":
+        break
+print("pin ok")
