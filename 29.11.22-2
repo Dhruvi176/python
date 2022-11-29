@@ -1,0 +1,19 @@
+a=int(input("enter employee number"))
+b=input("employee name")
+c=input("employee design")
+d=int(input("enter basic salary"))
+e=int(input("enter da"))
+f=int(input("enter ta"))
+g=int(input("enter hra"))
+n=d+e+f+g
+if n>100000:
+    tax=n*10/100
+elif n > 50000:
+        tax=n*7/100
+elif n > 20000:
+    tax = n * 2/ 100
+else:
+    tax=0
+print(tax)
+
+
