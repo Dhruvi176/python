@@ -1,0 +1,28 @@
+milk=60
+oil=90
+chocolates=50
+tea=70
+cph=int(input("enter phone number"))
+cname=input("enter name")
+add=input("enter address")
+m=int(input("enter quantity of milk"))
+o=int(input("enter quantity of oil"))
+c=int(input("enter quantity of chocolates"))
+t=int(input("enter quantity of tea"))
+bill=(m*milk)+(o*oil)+(c*chocolates)+(t*tea)
+if bill>3000:
+  tax=5/100
+elif bill>2000:
+  tax=7/100
+elif bill>1000:
+  tax=10/100
+elif bill>500:
+  tax=15/100
+else:
+  tax=100
+tax=tax+bill
+print("phone number=",cph)
+print("name=",cname)
+print("tax=",tax)
+print("bill=",bill)
+
